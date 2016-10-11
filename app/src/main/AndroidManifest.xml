@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.redes.comunicacionlinternas.rt_x">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:allowBackup="true"
+        android:theme="@style/AppTheme"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/ic_launcher"
+        android:configChanges="orientation"
+        android:screenOrientation="portrait">
+
+        <activity
+            android:name=".SplashScreen.SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN">
+                </action>
+                <category android:name="android.intent.category.DEFAULT">
+                </category>
+                <category android:name="android.intent.category.LAUNCHER">
+                </category>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".HomeActivity">
+        </activity>
+        
+        <activity
+            android:name=".Codigos.CodigosActivity">
+        </activity>
+
+        <activity
+            android:name=".Decodificador.DecodificadorActivity">
+        </activity>
+
+        <activity
+            android:name=".MatricesEjemplo.MatricesEjemploActivity">
+        </activity>
+
+        <activity
+            android:name=".Decodificador.matriz"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+    </application>
+</manifest>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:id="@+id/toolbarhome"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/Tamaño_Titulos"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/Titulo_Proyecto"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/toolbarhome"
+        android:layout_marginTop="37dp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/Tamaño_Titulos"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/Titulo_Curso"
+        android:layout_below="@+id/textView"
+        android:paddingTop="10dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/Tamaño_Titulos"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/Titulo_Año_semestre"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:paddingTop="20dp"
+        android:drawableTop="@drawable/lock_close"
+        android:drawablePadding="-20dp"
+        android:background="@drawable/button"
+        android:text="@string/Codificador"
+        android:id="@+id/code"
+        android:textColor="#e0e0e0"
+        android:textSize="@dimen/Tamaño_Texto_Botones_Home"
+        android:onClick="onClick"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/textView3"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:paddingTop="20dp"
+        android:text="@string/Decodificador"
+        android:drawableTop="@drawable/lock_open"
+        android:drawablePadding="-20dp"
+        android:background="@drawable/button"
+        android:id="@+id/deco"
+        android:textColor="#e0e0e0"
+        android:textSize="@dimen/Tamaño_Texto_Botones_Home"
+        android:onClick="onClick"
+        android:layout_alignBottom="@+id/code"
+        android:layout_toEndOf="@+id/textView3"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:paddingTop="20dp"
+        android:text="@string/Imagen"
+        android:drawableTop="@drawable/matriz"
+        android:drawablePadding="-20dp"
+        android:background="@drawable/button"
+        android:id="@+id/matricesimagen"
+        android:textColor="#e0e0e0"
+        android:textSize="@dimen/Tamaño_Texto_Botones_Home"
+        android:onClick="onClick"
+        android:layout_below="@+id/code"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

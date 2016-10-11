@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">RT-x</string>
+    <string name="Codificador">Codigos</string>
+    <string name="Decodificador">Decodificador</string>
+    <string name="Titulo_Proyecto">SISTEMA DE COMUNICACIÓN SIMPLE</string>
+    <string name="Titulo_Curso">REDES DE COMPUTADORES I</string>
+    <string name="Titulo_Año_semestre">2016-2</string>
+    <string name="Codigo_A_Enviar">Códigos de las Imágenes</string>
+    <string name="Este_Es_El_Codigo">Este es el Código</string>
+    <string name="Codigo_Actual">Código Actual</string>
+    <string name="Eliminar_Anterior">Eliminar Anterior</string>
+    <string name="title_activity_matriz">matriz</string>
+    <string name="Codigo_Prueba">000</string>
+    <string name="Cambiar_Codigo">Cambiar Código</string>
+    <string name="Ingrese_Nuevo_Codigo">Ingrese Nuevo Código Para:</string>
+    <string name="Codigo">Código</string>
+    <string name="Imagen">Imagen</string>
+    <string name="Imagen_Ejemplo">Matrices | Imágen Ejemplo</string>
+    <string name="Del">Del</string>
+    <string name="X">X</string>
+    <string name="Imagenes">IMÁGENES</string>
+    <string name="Datos_Recibidos">Datos Recibidos</string>
+    <string name="CÓDIGOS_A_UTILIZAR">CÓDIGOS A UTILIZAR</string>
+    <string name="FUNCIONES_DECODIFICACIÓN">DECODIFICACIÓN</string>
+    <string name="Decodificacion">DECODIFICACIÓN</string>
+</resources>

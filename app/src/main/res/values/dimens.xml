@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="Tamaño_Botones">60dp</dimen>
+    <dimen name="Tamaño_BotonesDeco">35dp</dimen>
+    <dimen name="Tamaño_BotonesDecoEJM">34dp</dimen>
+    <dimen name="Tamaño_BotonesDecoEJMT">35dp</dimen>
+    <dimen name="Tamaño_BotonesDecoDECO">29dp</dimen>
+    <dimen name="Tamaño_BotonesDecoDECOT">29dp</dimen>
+    <dimen name="Tamaño_BotonesDecoimg">21.2dp</dimen>
+    <dimen name="Padding_Inferior_Codigos">10dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="Padding_Ejemplo">8dp</dimen>
+
+    <!--Tamaño Textos-->
+    <dimen name="Tamaño_Titulos">20sp</dimen>
+    <dimen name="Tamaño_Texto_Botones_Home">16sp</dimen>
+    <dimen name="Tamaño_TextoDeco">15sp</dimen>
+    <dimen name="Tamaño_TextoDecoDECO">15sp</dimen>
+    <dimen name="Titulo_Ejemplo">20sp</dimen>
+</resources>
